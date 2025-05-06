@@ -1,3 +1,9 @@
+# Qiita
+
+下記の記事を参照してください
+
+https://qiita.com/B_tanuki/items/f3f38fe0afabd048beaf
+
 # C
 
 `Makefile` を用意しているので、`make` を実行するだけで各ソースファイルをまとめてコンパイルできます。
