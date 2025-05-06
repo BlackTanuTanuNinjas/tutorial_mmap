@@ -1,6 +1,3 @@
-// Linux
-// #define _GNU_SOURCE
-
 #include <sys/mman.h>
 #include <sys/stat.h>
 #include <fcntl.h>
