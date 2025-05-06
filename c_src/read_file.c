@@ -1,3 +1,6 @@
+// Linux
+// #define _GNU_SOURCE
+
 #include <sys/mman.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -6,11 +9,11 @@
 
 int main()
 {
-    int fd = open("test.txt", O_RDONLY);
+    int fd = open("../test.txt", O_RDONLY);
 
     if (fd == -1)
     {
-        perror("fstat");
+        perror("file");
         return 1;
     }
 

@@ -1,5 +1,5 @@
 // Linux
-#define _GNU_SOURCE
+// #define _GNU_SOURCE
 
 #include <stdio.h>
 #include <sys/mman.h>
